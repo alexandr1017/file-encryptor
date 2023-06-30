@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.ru.alexandr1017.GUIForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="5" vgap="5">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="d9ec0">
+        <constraints border-constraint="North"/>
+      </hspacer>
+      <vspacer id="365f2">
+        <constraints border-constraint="West"/>
+      </vspacer>
+      <vspacer id="bcdd2">
+        <constraints border-constraint="East"/>
+      </vspacer>
+      <grid id="98a5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="90bb5" class="javax.swing.JTextField" binding="filePath">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <preferredSize width="500" height="30"/>
+            </properties>
+          </component>
+          <component id="8c7c0" class="javax.swing.JButton" binding="selectButton">
+            <constraints/>
+            <properties>
+              <text value="Выберите файл или папку"/>
+            </properties>
+          </component>
+          <component id="baa77" class="javax.swing.JButton" binding="actionButton">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
