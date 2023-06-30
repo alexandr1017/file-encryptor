@@ -1,14 +1,9 @@
 package org.ru.alexandr1017;
 
 
-import net.lingala.zip4j.core.ZipFile;
-import net.lingala.zip4j.model.ZipParameters;
-import net.lingala.zip4j.util.Zip4jConstants;
-
 import javax.swing.*;
-import java.io.File;
 
-public class Archiver {
+public class Application {
     public static void main(String[] args) {
 
         JFrame frame = new JFrame("File Encrypter - Шифровальщик файлов и папок");
